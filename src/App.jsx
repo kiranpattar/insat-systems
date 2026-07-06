@@ -22,7 +22,7 @@ const builtFor = ['Coffee Shops', 'Cafes', 'Bakeries', 'Snack Outlets', 'College
 function App() {
   return <main>
     <nav className="nav">
-      <div className="brand"><div className="logo"><Coffee size={30}/></div><div><strong>INSAT SYSTEM</strong><span>A BH-KI-RA PVT LTD</span></div></div>
+      <div className="brand"><div className="logo"><Coffee size={30}/></div><div><strong>BHA-KI-RA Infratech Pvt Ltd</strong><span>A BH-KI-RA PVT LTD</span></div></div>
       <div className="navLinks"><a href="#features">Features</a><a href="#tech">Technology</a><a href="#contact">Contact</a></div>
     </nav>
 
@@ -44,7 +44,7 @@ function App() {
 
     <section id="features" className="section"><h2>Powerful Features</h2><p className="sub">Everything your café needs to manage customer orders, kitchen flow, payments and growth.</p><div className="featureGrid">{features.map(([title,list])=><article className="card" key={title}><h3>{title}</h3>{list.map(v=><p key={v}><CheckCircle2 size={16}/>{v}</p>)}</article>)}</div></section>
 
-    <section className="split"><div className="panel"><h2>Cloud-Based SaaS Advantages</h2>{['Secure encrypted data','Auto backup & recovery','Scalable on demand','Lower IT maintenance','Web, mobile, admin and analytics access'].map(x=><p className="tick" key={x}><CheckCircle2 size={18}/>{x}</p>)}<div className="cloudBox"><Cloud size={70}/><b>INSAT SYSTEM CLOUD</b></div></div><div className="panel dark"><h2>Why Choose INSAT System?</h2>{why.map(([t,d,Icon])=><div className="why" key={t}><Icon/><div><b>{t}</b><p>{d}</p></div></div>)}</div></section>
+    <section className="split"><div className="panel"><h2>Cloud-Based SaaS Advantages</h2>{['Secure encrypted data','Auto backup & recovery','Scalable on demand','Lower IT maintenance','Web, mobile, admin and analytics access'].map(x=><p className="tick" key={x}><CheckCircle2 size={18}/>{x}</p>)}<div className="cloudBox"><Cloud size={70}/><b>Bha-Ki-Ra</b></div></div><div className="panel dark"><h2>Why Choose Bha-Ki-Ra ?</h2>{why.map(([t,d,Icon])=><div className="why" key={t}><Icon/><div><b>{t}</b><p>{d}</p></div></div>)}</div></section>
 
     <section id="tech" className="section tech"><h2>Technology We Use</h2><p className="sub">We build scalable products using modern frontend, backend, cloud and data technologies.</p><div className="techGrid">{tech.map((t,i)=>{const icons=[Code2,Server,Cpu,Code2,Globe2,Code2,Cloud,Database]; const Icon=icons[i]; return <div className="techPill" key={t}><Icon size={22}/>{t}</div>})}</div></section>
 
@@ -52,7 +52,7 @@ function App() {
 
     <section className="business"><div><h2>Business Model</h2><div className="model"><span>👑 Subscription Plans</span><span>％ Commission on Orders</span><span>📊 Premium Analytics</span><span>📣 Featured Promotions</span><span>🤝 Loyalty Partnerships</span></div></div><div className="vision"><h3>Our Vision</h3><p>Build the digital operating system for modern cafés, starting with local cafés and expanding city-by-city across India.</p></div></section>
 
-    <section id="contact" className="contact"><div><h2>Start Your Digital Café Journey</h2><p>Onboard your retail unit into our platform and we will market your shop based on your location.</p></div><div className="contactCard"><p><Phone/> +91 990566445</p><p><MapPin/> No 405, Sumukha Simhadri Springs, Bangalore - 560061</p><p><Mail/> info@insatsystem.com</p><p><Users/> INSAT SYSTEM — A BH-KI-RA PVT LTD</p></div></section>
+    <section id="contact" className="contact"><div><h2>Start Your Digital Café Journey</h2><p>Onboard your retail unit into our platform and we will market your shop based on your location.</p></div><div className="contactCard"><p><Phone/> +91 990566445</p><p><MapPin/> No 405, Sumukha Simhadri Springs, Bangalore - 560061</p><p><Mail/> pattar.kiran@gmail.com</p><p><Users/>BH-KI-RA PVT LTD</p></div></section>
 
     <footer><span>☁ Cloud-Based</span><span>🛡 Secure</span><span>📈 Scalable</span><span>⚡ Reliable</span><em>Smart Ordering. Happy Customers. Growing Together.</em></footer>
   </main>
